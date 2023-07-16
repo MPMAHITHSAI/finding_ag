@@ -8,10 +8,10 @@ public class Substring_ag {
 		int a_count = 0;
 		
 		for(int i=0;i<str.length();i++) {
-			if(str.charAt(i) == 'a') {
+			if(str.charAt(i) == 'a' ||str.charAt(i) == 'A'  ) {
 				a_count++;
 			}
-			else if(str.charAt(i) == 'g') {
+			else if(str.charAt(i) == 'g'||str.charAt(i) == 'G'  ) {
 				result +=a_count;
 			}
 		}
